@@ -1,0 +1,10 @@
+savepath: "results/train"
+datapath: "../DAVIS"
+resume: False
+
+model:
+  bsize: 1
+  num_workers: 0
+  epochs: 20
+  lr: 5e-4
+  checkpoint_bsize: 100
